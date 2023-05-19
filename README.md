@@ -9,5 +9,6 @@ As far as packages are concerned, you need to install the following packages.
 1) Matplotlib
 2) Sympy
 3) Numpy
+4) Scipy
 
 Note: This packages can be easily downloaded using pip.
