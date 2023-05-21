@@ -1,16 +1,16 @@
+# This script will be used when you choose to take a derivative of a function.
+
 import numpy as np
 import sympy as smp
 from sympy import *
-import scipy
-from scipy.integrate import quad
 from math import *
 
-
-
-
-
-
- 
-if __name__ == "__main__":
-    x_0 = -20 
-    newtons(x_0)
+def derivative():
+    f = input("Enter the function you wish to take a derivative of: ")
+    x = symbols('x')
+    fprime = diff(f, x)
+    return fprime
+    
+    
+if __name__ == "__main__":  
+    print("The derivative of the function you entered is: ", derivative())
