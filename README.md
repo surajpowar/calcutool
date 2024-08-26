@@ -1,5 +1,5 @@
 # Calcutool
-The program will help you take derivatives and integrations of functions. 
+The module will help you take derivatives and integrations of functions. 
 
 You need to install Python 3 as the scripts were written in Python 3.9.7. The installation guide for downloading and installing python can be found on the official website https://www.python.org/downloads/.
 
