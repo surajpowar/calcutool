@@ -1,0 +1,20 @@
+[Calcutoool]
+
+name = "surajpowar"
+version = "0.0.1"
+authors = [
+    {name = "Suraj Powar", email = "suraj91096@gmail.com"}
+]
+
+description = "This is a python package that will help us to evaluate function by taking a derivative or integration of the function. It uses python packages to evaluate the function, but I have tried to make use of all the package to give an overall experience of evaluating the integrals and derivative of a function. This is clearly for educational purpose and the motive of the software is to leverage the computation power to help on study calculus better."
+readme = "README.md"
+requires-python = ">= 3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[https://github.com/surajpowar/calcutool]
+Homepage = "https://github.com/pypa/sampleproject"
+Issues = "https://github.com/pypa/sampleprojects/issues"
