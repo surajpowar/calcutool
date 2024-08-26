@@ -1,6 +1,6 @@
-[Calcutoool]
+[project]
 
-name = "surajpowar"
+name = "example_package_calcutool"
 version = "0.0.1"
 authors = [
     {name = "Suraj Powar", email = "suraj91096@gmail.com"}
@@ -15,6 +15,6 @@ classifiers = [
     "Operating System :: OS Independent",
 ]
 
-[https://github.com/surajpowar/calcutool]
+[project.urls]
 Homepage = "https://github.com/pypa/sampleproject"
 Issues = "https://github.com/pypa/sampleprojects/issues"
