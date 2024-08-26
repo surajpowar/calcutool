@@ -1,9 +1,12 @@
-# This script will be used when you choose to take a derivative of a function.
+# Author : Suraj Powar
+# Date: 05/18/2023
 
 import numpy as np
 import sympy as smp
 from sympy import *
 from math import *
+import scipy
+from scipy.integrate import quad
 
 def derivative():
     f = input("Enter the function you wish to take a derivative of: ")
