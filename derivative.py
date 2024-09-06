@@ -8,10 +8,20 @@ from math import *
 import scipy
 from scipy.integrate import quad
 
-def derivative():
-    f = input("Enter the function you wish to take a derivative of: ")
-    x = symbols('x')
-    fprime = diff(f, x)
+def derivative(f_str):
+    """
+    Computes the derivative of a given function f with respect to x.
+    
+    Parameters:
+        f_str (str): Function to differentiate in string format (e.g., 'x**2 + 2*x').
+    
+    Returns:
+        sympy expression: Derivative of the function.
+    """
+    x = smp.Symbol('x')
+    f = smp.sympify(f_str)
+    fprime = smp.diff(f, x)
+    
     return fprime
     
     
